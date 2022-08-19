@@ -22,3 +22,17 @@ printf(a) // prints 8
 \*a - returns the value stored in the address of a
   |--> this is called dereferencing!
 
+- Multi-Dimensional Arrays and Pointers
+
+```c
+B[i][j] = *(B[i] + j)
+        = *(*(B+i) + j)
+```
+
+- Dynamic Memory Allocation
+
+If malloc() is not able to find memory on the heap, it returns null.
+this is important for error handling.
+let's see if i got this right. Them's the facts:
+p = new int; (CPP)
+p = (int*)malloc(sizeof(int)); (C)
