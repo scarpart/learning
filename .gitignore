@@ -54,3 +54,6 @@ dkms.conf
 # Things I've changed - Rust
 grrs
 rust-book
+
+# Things I've changed - Python/Jupyter
+*ipynb
